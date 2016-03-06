@@ -14,11 +14,6 @@ namespace Ve.KodeKata.Martian.Model
             CurrentPosition = new Position();
         }
 
-        public MarsOne(Position position)
-        {
-            this.CurrentPosition = position;
-        }
-
         public Position MoveUp()
         {
             CurrentPosition.CoordY = this.CurrentPosition.CoordY + 1;

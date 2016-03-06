@@ -12,14 +12,14 @@ namespace Ve.KodeKata.Martian.ExplorerManager.Tests
     {
         private IPlanet _planet;
         private IExplorer _explorer;
-        private PlanetExplorer _planetExplorer;
+        private ExplorerManager _planetExplorer;
 
         [TestInitialize]
         public void SetUp()
         {
             _planet = Substitute.For<IPlanet>();
             _explorer = Substitute.For<IExplorer>();
-            _planetExplorer = new PlanetExplorer(_planet, _explorer);
+            _planetExplorer = new ExplorerManager(_planet, _explorer);
         }
 
         #region CheckPositionInsidePlanet

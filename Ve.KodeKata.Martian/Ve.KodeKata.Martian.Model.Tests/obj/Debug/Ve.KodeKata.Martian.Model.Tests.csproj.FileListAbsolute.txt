@@ -5,3 +5,10 @@ C:\Users\cobos\Documents\Visual Studio 2010\Projects\Ve.KodeKata.Martian\Ve.Kode
 C:\Users\cobos\Documents\Visual Studio 2010\Projects\Ve.KodeKata.Martian\Ve.KodeKata.Martian.Model.Tests\obj\Debug\Ve.KodeKata.Martian.Model.Tests.pdb
 C:\Users\cobos\Documents\Visual Studio 2010\Projects\Ve.KodeKata.Martian\Ve.KodeKata.Martian.Model.Tests\bin\Debug\Ve.KodeKata.Martian.Model.dll
 C:\Users\cobos\Documents\Visual Studio 2010\Projects\Ve.KodeKata.Martian\Ve.KodeKata.Martian.Model.Tests\bin\Debug\Ve.KodeKata.Martian.Model.pdb
+C:\Users\cobos\Source\GIT\Ve.KodeKata.MarsRover\Ve.KodeKata.Martian\Ve.KodeKata.Martian.Model.Tests\bin\Debug\Ve.KodeKata.Martian.Model.Tests.dll
+C:\Users\cobos\Source\GIT\Ve.KodeKata.MarsRover\Ve.KodeKata.Martian\Ve.KodeKata.Martian.Model.Tests\bin\Debug\Ve.KodeKata.Martian.Model.Tests.pdb
+C:\Users\cobos\Source\GIT\Ve.KodeKata.MarsRover\Ve.KodeKata.Martian\Ve.KodeKata.Martian.Model.Tests\bin\Debug\Ve.KodeKata.Martian.Model.dll
+C:\Users\cobos\Source\GIT\Ve.KodeKata.MarsRover\Ve.KodeKata.Martian\Ve.KodeKata.Martian.Model.Tests\bin\Debug\Ve.KodeKata.Martian.Model.pdb
+C:\Users\cobos\Source\GIT\Ve.KodeKata.MarsRover\Ve.KodeKata.Martian\Ve.KodeKata.Martian.Model.Tests\obj\Debug\Ve.KodeKata.Martian.Model.Tests.csprojResolveAssemblyReference.cache
+C:\Users\cobos\Source\GIT\Ve.KodeKata.MarsRover\Ve.KodeKata.Martian\Ve.KodeKata.Martian.Model.Tests\obj\Debug\Ve.KodeKata.Martian.Model.Tests.dll
+C:\Users\cobos\Source\GIT\Ve.KodeKata.MarsRover\Ve.KodeKata.Martian\Ve.KodeKata.Martian.Model.Tests\obj\Debug\Ve.KodeKata.Martian.Model.Tests.pdb

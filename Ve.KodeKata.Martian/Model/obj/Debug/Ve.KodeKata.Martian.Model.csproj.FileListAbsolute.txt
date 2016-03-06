@@ -3,3 +3,8 @@ C:\Users\cobos\Documents\Visual Studio 2010\Projects\Ve.KodeKata.Martian\Model\b
 C:\Users\cobos\Documents\Visual Studio 2010\Projects\Ve.KodeKata.Martian\Model\bin\Debug\Ve.KodeKata.Martian.Model.pdb
 C:\Users\cobos\Documents\Visual Studio 2010\Projects\Ve.KodeKata.Martian\Model\obj\Debug\Ve.KodeKata.Martian.Model.dll
 C:\Users\cobos\Documents\Visual Studio 2010\Projects\Ve.KodeKata.Martian\Model\obj\Debug\Ve.KodeKata.Martian.Model.pdb
+C:\Users\cobos\Source\GIT\Ve.KodeKata.MarsRover\Ve.KodeKata.Martian\Model\bin\Debug\Ve.KodeKata.Martian.Model.dll
+C:\Users\cobos\Source\GIT\Ve.KodeKata.MarsRover\Ve.KodeKata.Martian\Model\bin\Debug\Ve.KodeKata.Martian.Model.pdb
+C:\Users\cobos\Source\GIT\Ve.KodeKata.MarsRover\Ve.KodeKata.Martian\Model\obj\Debug\Ve.KodeKata.Martian.Model.csprojResolveAssemblyReference.cache
+C:\Users\cobos\Source\GIT\Ve.KodeKata.MarsRover\Ve.KodeKata.Martian\Model\obj\Debug\Ve.KodeKata.Martian.Model.dll
+C:\Users\cobos\Source\GIT\Ve.KodeKata.MarsRover\Ve.KodeKata.Martian\Model\obj\Debug\Ve.KodeKata.Martian.Model.pdb

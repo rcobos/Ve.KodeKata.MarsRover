@@ -13,5 +13,11 @@ namespace Ve.KodeKata.Martian.Model
         public Planet()
         {
         }
+
+        public void Initialize(int length, int heigth)
+        {
+            Length = length;
+            Heigth = heigth;
+        }
     }
 }

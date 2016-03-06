@@ -6,13 +6,12 @@ using Ve.KodeKata.Martian.Model;
 
 namespace Ve.KodeKata.Martian.ExplorerManager
 {
-    public class PlanetExplorer : IExplorerManager
+    public class ExplorerManager : IExplorerManager
     {
-        private IPlanet _planet;
-        private IExplorer _explorer;
+        public IPlanet _planet { get; set; }
+        public IExplorer _explorer { get; set; }
         
-
-        public PlanetExplorer(IPlanet planet, IExplorer explorer)
+        public ExplorerManager(IPlanet planet, IExplorer explorer)
         {
             _planet = planet;
             _explorer = explorer;
@@ -29,7 +28,7 @@ namespace Ve.KodeKata.Martian.ExplorerManager
         public Position Explore(List<Constants.Movements> movements, out string error)
         {
             Position targetPosition = null;
-            Position sourcePosition = _explorer.CurrentPosition;
+            Position sourcePosition = new Position(_explorer.CurrentPosition.CoordX, _explorer.CurrentPosition.CoordY);
             error = "";
             if (movements != null)
             {

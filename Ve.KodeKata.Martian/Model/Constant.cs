@@ -14,5 +14,8 @@ namespace Ve.KodeKata.Martian.Model
 
         public const string WRONG_MOVEMENT = "Wrong movement:{0} Target position:{1}";
         public const string POSITION_FORMAT = "({0},{1})";
+
+        public const int DEFAULT_HEIGTH = 2;
+        public const int DEFAULT_LENGTH = 2;
     }
 }

@@ -11,3 +11,16 @@ C:\Users\cobos\Documents\Visual Studio 2010\Projects\Ve.KodeKata.Martian\Ve.Kode
 C:\Users\cobos\Documents\Visual Studio 2010\Projects\Ve.KodeKata.Martian\Ve.KodeKata.Martian.ExplorerManager.Tests\bin\Debug\SimpleInjector.xml
 C:\Users\cobos\Documents\Visual Studio 2010\Projects\Ve.KodeKata.Martian\Ve.KodeKata.Martian.ExplorerManager.Tests\bin\Debug\Ve.KodeKata.Martian.Model.dll
 C:\Users\cobos\Documents\Visual Studio 2010\Projects\Ve.KodeKata.Martian\Ve.KodeKata.Martian.ExplorerManager.Tests\bin\Debug\Ve.KodeKata.Martian.Model.pdb
+C:\Users\cobos\Source\GIT\Ve.KodeKata.MarsRover\Ve.KodeKata.Martian\Ve.KodeKata.Martian.ExplorerManager.Tests\bin\Debug\Ve.KodeKata.Martian.ExplorerManager.Tests.dll
+C:\Users\cobos\Source\GIT\Ve.KodeKata.MarsRover\Ve.KodeKata.Martian\Ve.KodeKata.Martian.ExplorerManager.Tests\bin\Debug\Ve.KodeKata.Martian.ExplorerManager.Tests.pdb
+C:\Users\cobos\Source\GIT\Ve.KodeKata.MarsRover\Ve.KodeKata.Martian\Ve.KodeKata.Martian.ExplorerManager.Tests\bin\Debug\NSubstitute.dll
+C:\Users\cobos\Source\GIT\Ve.KodeKata.MarsRover\Ve.KodeKata.Martian\Ve.KodeKata.Martian.ExplorerManager.Tests\bin\Debug\SimpleInjector.dll
+C:\Users\cobos\Source\GIT\Ve.KodeKata.MarsRover\Ve.KodeKata.Martian\Ve.KodeKata.Martian.ExplorerManager.Tests\bin\Debug\Ve.KodeKata.Martian.ExplorerManager.dll
+C:\Users\cobos\Source\GIT\Ve.KodeKata.MarsRover\Ve.KodeKata.Martian\Ve.KodeKata.Martian.ExplorerManager.Tests\bin\Debug\Ve.KodeKata.Martian.Model.dll
+C:\Users\cobos\Source\GIT\Ve.KodeKata.MarsRover\Ve.KodeKata.Martian\Ve.KodeKata.Martian.ExplorerManager.Tests\bin\Debug\Ve.KodeKata.Martian.Model.pdb
+C:\Users\cobos\Source\GIT\Ve.KodeKata.MarsRover\Ve.KodeKata.Martian\Ve.KodeKata.Martian.ExplorerManager.Tests\bin\Debug\Ve.KodeKata.Martian.ExplorerManager.pdb
+C:\Users\cobos\Source\GIT\Ve.KodeKata.MarsRover\Ve.KodeKata.Martian\Ve.KodeKata.Martian.ExplorerManager.Tests\bin\Debug\NSubstitute.xml
+C:\Users\cobos\Source\GIT\Ve.KodeKata.MarsRover\Ve.KodeKata.Martian\Ve.KodeKata.Martian.ExplorerManager.Tests\bin\Debug\SimpleInjector.xml
+C:\Users\cobos\Source\GIT\Ve.KodeKata.MarsRover\Ve.KodeKata.Martian\Ve.KodeKata.Martian.ExplorerManager.Tests\obj\Debug\Ve.KodeKata.Martian.ExplorerManager.Tests.csprojResolveAssemblyReference.cache
+C:\Users\cobos\Source\GIT\Ve.KodeKata.MarsRover\Ve.KodeKata.Martian\Ve.KodeKata.Martian.ExplorerManager.Tests\obj\Debug\Ve.KodeKata.Martian.ExplorerManager.Tests.dll
+C:\Users\cobos\Source\GIT\Ve.KodeKata.MarsRover\Ve.KodeKata.Martian\Ve.KodeKata.Martian.ExplorerManager.Tests\obj\Debug\Ve.KodeKata.Martian.ExplorerManager.Tests.pdb
