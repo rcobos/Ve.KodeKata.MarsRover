@@ -18,9 +18,9 @@ namespace Ve.KodeKata.Martian.ExplorerManager
         }
 
         public bool CheckPositionInsidePlanet(Position position)
-        {            
-            bool validX = position.CoordX < _planet.Length;
-            bool validY = position.CoordY < _planet.Heigth;
+        {
+            bool validX = position.CoordX < _planet.Length && position.CoordX >= 0;
+            bool validY = position.CoordY < _planet.Heigth && position.CoordY >= 0;
 
             return (validX && validY);
         }

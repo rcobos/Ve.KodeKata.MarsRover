@@ -58,7 +58,7 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="PlanetExplorerTest.cs" />
+    <Compile Include="ExplorerManagerTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

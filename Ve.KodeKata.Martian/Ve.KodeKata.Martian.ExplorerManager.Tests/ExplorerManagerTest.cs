@@ -8,7 +8,7 @@ using System.Collections.Generic;
 namespace Ve.KodeKata.Martian.ExplorerManager.Tests
 {
     [TestClass]
-    public class PlanetExplorerTest
+    public class ExplorerManagerTest
     {
         private IPlanet _planet;
         private IExplorer _explorer;
@@ -69,6 +69,28 @@ namespace Ve.KodeKata.Martian.ExplorerManager.Tests
 
             Assert.IsFalse(_planetExplorer.CheckPositionInsidePlanet(position));
         }
+
+        [TestMethod]
+        public void CheckPositionInsidePlanetWithNegativeXPositionReturnsFalse()
+        {
+            _planet.Heigth = 2;
+            _planet.Length = 2;
+
+            Position position = new Position(-1, 1);
+
+            Assert.IsFalse(_planetExplorer.CheckPositionInsidePlanet(position));
+        }
+
+        [TestMethod]
+        public void CheckPositionInsidePlanetWithNegativeYPositionReturnsFalse()
+        {
+            _planet.Heigth = 2;
+            _planet.Length = 2;
+
+            Position position = new Position(1, -1);
+
+            Assert.IsFalse(_planetExplorer.CheckPositionInsidePlanet(position));
+        }
         #endregion
 
         #region Explore
@@ -87,6 +109,7 @@ namespace Ve.KodeKata.Martian.ExplorerManager.Tests
 
             _explorer.MoveUp().Returns(new Position(0, 1));
             _explorer.MoveRigth().Returns(new Position(1, 1));
+            _explorer.CurrentPosition = new Position(0, 0);
             List<Constants.Movements> movements = new List<Constants.Movements>()
             {
                 Constants.Movements.up,

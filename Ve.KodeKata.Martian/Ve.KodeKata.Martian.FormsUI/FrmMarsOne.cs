@@ -29,8 +29,8 @@ namespace Ve.KodeKata.Martian.FormsUI
 
                 _explorerManager._planet.Heigth = int.Parse(txtHeigth.Text);
                 _explorerManager._planet.Length = int.Parse(txtHeigth.Text);
-                _explorerManager._explorer.CurrentPosition = new Position(Constants.DEFAULT_POSITION_X, Constants.DEFAULT_POSITION_Y);
-                txtResults.Text = "Initial Position: " + _explorerManager._explorer.CurrentPosition;
+                _explorerManager._explorer.CurrentPosition = new Position(Constants.DEFAULT_POSITION_Y, Constants.DEFAULT_POSITION_Y);
+                
             }
             catch (Exception ex)
             {
@@ -70,27 +70,28 @@ namespace Ve.KodeKata.Martian.FormsUI
         private void btnClear_Click(object sender, EventArgs e)
         {
             ClearMovements();
+            txtResults.Clear();
         }
 
         private void btnMove_Click(object sender, EventArgs e)
         {
             string error = "";
-            txtResults.Text = txtResults.Text + "\nInitial Position: " + _explorerManager._explorer.CurrentPosition;
-
+            WriteLog(string.Format(Constants.CURRENT_POSITION, _explorerManager._explorer.CurrentPosition));
+            
             var targetPosition = _explorerManager.Explore(movements, out error);
 
             StringBuilder result = new StringBuilder();
             if (!string.IsNullOrEmpty(error))
             {
-                txtResults.Text = txtResults.Text + "Error moving : " + error + "\n";  
+                WriteLog(error);                
             }
             else
             {
-                txtResults.Text = txtResults.Text + "Movements done. Target Position: " + targetPosition.ToString();
+                WriteLog(string.Format(Constants.MOVEMENTS_DONE, targetPosition.ToString()));                
             }
 
             ClearMovements();
-            txtResults.Text = txtResults.Text + "\nCurrent Position: " + _explorerManager._explorer.CurrentPosition;
+            WriteLog(string.Format(Constants.CURRENT_POSITION, _explorerManager._explorer.CurrentPosition));
 
         }
 
@@ -120,6 +121,12 @@ namespace Ve.KodeKata.Martian.FormsUI
                 movs.Append(" ");
             }
             txtMovements.Text = movs.ToString().TrimEnd();
+        }
+
+        public void WriteLog(string log)
+        {
+            StringBuilder currentLog = new StringBuilder(txtResults.Text);
+            txtResults.Text = currentLog.AppendLine(log).ToString();
         }
         #endregion
     }
