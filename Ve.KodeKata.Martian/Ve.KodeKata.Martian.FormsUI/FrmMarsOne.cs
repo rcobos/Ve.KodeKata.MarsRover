@@ -94,7 +94,7 @@ namespace Ve.KodeKata.Martian.FormsUI
 
         private void txtLength_TextChanged(object sender, EventArgs e)
         {
-            _explorerManager._planet.Length = int.Parse(txtHeigth.Text);
+            _explorerManager._planet.Length = int.Parse(txtLength.Text);
         }
 
         private void txtHeigth_TextChanged(object sender, EventArgs e)

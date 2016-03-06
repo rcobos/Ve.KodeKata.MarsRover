@@ -65,7 +65,7 @@
             // 
             // btnLeft
             // 
-            this.btnLeft.Location = new System.Drawing.Point(567, 80);
+            this.btnLeft.Location = new System.Drawing.Point(472, 80);
             this.btnLeft.Name = "btnLeft";
             this.btnLeft.Size = new System.Drawing.Size(75, 23);
             this.btnLeft.TabIndex = 2;
@@ -75,7 +75,7 @@
             // 
             // btnRigth
             // 
-            this.btnRigth.Location = new System.Drawing.Point(472, 80);
+            this.btnRigth.Location = new System.Drawing.Point(567, 80);
             this.btnRigth.Name = "btnRigth";
             this.btnRigth.Size = new System.Drawing.Size(75, 23);
             this.btnRigth.TabIndex = 3;
@@ -109,7 +109,6 @@
             this.txtMovements.Name = "txtMovements";
             this.txtMovements.Size = new System.Drawing.Size(170, 20);
             this.txtMovements.TabIndex = 6;
-
             // 
             // lblMovements
             // 
@@ -119,7 +118,6 @@
             this.lblMovements.Size = new System.Drawing.Size(62, 13);
             this.lblMovements.TabIndex = 7;
             this.lblMovements.Text = "Movements";
-
             // 
             // lblHeigth
             // 
