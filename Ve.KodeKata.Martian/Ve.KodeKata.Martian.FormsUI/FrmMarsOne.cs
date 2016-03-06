@@ -29,7 +29,7 @@ namespace Ve.KodeKata.Martian.FormsUI
 
                 _explorerManager._planet.Heigth = int.Parse(txtHeigth.Text);
                 _explorerManager._planet.Length = int.Parse(txtHeigth.Text);
-                _explorerManager._explorer.CurrentPosition = new Position(0, 0);
+                _explorerManager._explorer.CurrentPosition = new Position(Constants.DEFAULT_POSITION_X, Constants.DEFAULT_POSITION_Y);
                 txtResults.Text = "Initial Position: " + _explorerManager._explorer.CurrentPosition;
             }
             catch (Exception ex)
@@ -75,20 +75,22 @@ namespace Ve.KodeKata.Martian.FormsUI
         private void btnMove_Click(object sender, EventArgs e)
         {
             string error = "";
-            
+            txtResults.Text = txtResults.Text + "\nInitial Position: " + _explorerManager._explorer.CurrentPosition;
+
             var targetPosition = _explorerManager.Explore(movements, out error);
 
             StringBuilder result = new StringBuilder();
             if (!string.IsNullOrEmpty(error))
             {
-                txtResults.Text = "Error moving : " + error + "\n";  
+                txtResults.Text = txtResults.Text + "Error moving : " + error + "\n";  
             }
             else
             {
-                txtResults.Text = "Movements done. Target Position: " + targetPosition.ToString();
+                txtResults.Text = txtResults.Text + "Movements done. Target Position: " + targetPosition.ToString();
             }
 
             ClearMovements();
+            txtResults.Text = txtResults.Text + "\nCurrent Position: " + _explorerManager._explorer.CurrentPosition;
 
         }
 

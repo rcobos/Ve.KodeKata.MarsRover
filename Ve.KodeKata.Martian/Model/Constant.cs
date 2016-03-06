@@ -17,5 +17,9 @@ namespace Ve.KodeKata.Martian.Model
 
         public const int DEFAULT_HEIGTH = 2;
         public const int DEFAULT_LENGTH = 2;
+
+        public const int DEFAULT_POSITION_X = 0;
+        public const int DEFAULT_POSITION_Y = 0;
+        
     }
 }
