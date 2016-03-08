@@ -20,19 +20,19 @@ namespace Ve.KodeKata.Martian.Model.Tests
         }
 
         [TestMethod]
-        public void GetLengthMustReturnExpedtedResult()
+        public void GetLengthMustReturnExpectedResult()
         {
             Assert.AreEqual(DefaultPlanet.Length, DefaultLength);
         }
 
         [TestMethod]
-        public void GetHeigthtMustReturnExpedtedResult()
+        public void GetHeigthtMustReturnExpectedResult()
         {
             Assert.AreEqual(DefaultPlanet.Heigth, DefaultHeigth);
         }
 
         [TestMethod]
-        public void SetLengthMustReturnExpedtedResult()
+        public void SetLengthMustReturnExpectedResult()
         {
             int newValue = 2;
             DefaultPlanet.Length = newValue;
@@ -40,7 +40,7 @@ namespace Ve.KodeKata.Martian.Model.Tests
         }
 
         [TestMethod]
-        public void SetHeigthtMustReturnExpedtedResult()
+        public void SetHeigthtMustReturnExpectedResult()
         {
             int newValue = 2;
             DefaultPlanet.Heigth = newValue;

@@ -9,19 +9,19 @@ namespace Ve.KodeKata.Martian.Model.Tests
         Position defaultPosition = new Position(1, 1);
 
         [TestMethod]
-        public void GetXFromDefaultPositionMustReturnExpedtedResult()
+        public void GetXFromDefaultPositionMustReturnExpectedResult()
         {
             Assert.AreEqual(defaultPosition.CoordX, 1);
         }
 
         [TestMethod]
-        public void GetYFromDefaultPositionMustReturnExpedtedResult()
+        public void GetYFromDefaultPositionMustReturnExpectedResult()
         {
             Assert.AreEqual(defaultPosition.CoordX, 1);
         }
 
         [TestMethod]
-        public void SetXFromDefaultPositionMustReturnExpedtedResult()
+        public void SetXFromDefaultPositionMustReturnExpectedResult()
         {
             Position position = new Position(1, 1);
             position.CoordX = 2;
@@ -29,7 +29,7 @@ namespace Ve.KodeKata.Martian.Model.Tests
         }
 
         [TestMethod]
-        public void SetYFromDefaultPositionMustReturnExpedtedResult()
+        public void SetYFromDefaultPositionMustReturnExpectedResult()
         {
             Position position = new Position(1, 1);
             position.CoordY = 2;
